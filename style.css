@@ -1,0 +1,95 @@
+.uvi {
+    padding: 8px;
+    border-radius: 3px;
+}
+.forecast {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#forecast-container {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.forecastBox {
+    background-color: #393e46;
+    color: white;
+    padding: 1rem;
+    margin-right: 1rem;
+
+}
+.forecastBox p {
+    padding: .5rem 0;
+}
+
+.cityBtn {
+    background-color:#00adb5;
+    margin: 5px 0px;
+    border-radius: 3px;
+    height: 2rem;
+    text-align: center;
+    padding: .5rem;
+    width: 100%;
+    display: block;
+}
+
+header {
+    background: linear-gradient(#6487e6, #91dbe5,#aad8d3 );
+    color: #393e46;
+    height: 4rem;
+    text-align: center;
+}
+h1 {
+font-size: 2.5rem;
+padding-top: .5rem;
+
+}
+h2 {
+    font-size: 2rem;
+    padding-top: .5rem;
+    color: #393e46;
+}
+h3 {
+    font-size: 1.5rem;
+    color: #393e46;
+}
+
+aside {
+    width: 25%;
+    display: inline-flex;
+    padding: .5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+}
+#submitBtn {
+    background-color: lightskyblue;
+    color: white;
+    margin: .5rem 0;
+    border: none;
+    padding: .5rem;
+    border-radius: 3px;
+}
+#currentCity {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: .5rem;
+    margin: 1.5rem 0;
+    width: 100%;
+   margin-top: 2rem;
+}
+
+#currentCity p {
+    padding: .5rem;
+}
+
+main {
+    width: 70%;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}

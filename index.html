@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
-    <link rel="stylesheet" href=reset.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,25 +14,21 @@
     </header>
     <aside>
         <h2>Search for a city:</h2>
-        <input type="text" name="city" placeholder="San Diego">
-        <button type="submit">Search</button>
+        <input type="text" name="city" id="searchCity" placeholder="San Diego">
+        <button type="submit" id="submitBtn">Search</button>
         <hr>
         <div id="searchHistory">
 
         </div>
     </aside>
-    <section id="currentCity">
+    <main>
+        <section id="currentCity">
         
-    </section>
-    <section id="forecast">
-        <h3>5-Day Forecast</h3>
-        <div>
-            <div>
+        </section>
+        <section id="forecast-container">
 
-            </div>
-        </div>
-
-    </section>
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/luxon@1.27.0/build/global/luxon.min.js"></script>
     <script src="script.js"></script>
 </body>
