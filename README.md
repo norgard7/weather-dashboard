@@ -11,3 +11,4 @@ Usage
 ```md
 ![this is an image of weather Dashboard main page](./images/weatherDashboard.png)
 ```
+<img src="images/weatherDasboard.png" raw=true />
