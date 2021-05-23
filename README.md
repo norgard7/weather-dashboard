@@ -9,5 +9,5 @@ Type in your city of choice and click search. Data will populate for the day of 
 
 Usage
 ```md
-![this is an image of weather Dashboard main page](images/weatherDashboard.png)
+![this is an image of weather Dashboard main page](./images/weatherDashboard.png)
 ```
