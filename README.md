@@ -11,5 +11,5 @@ Usage
 ```md
 ![this is an image of weather Dashboard main page](./images/weatherDashboard.png)
 ```
-https://github.com/norgard7/weather-dashboard/blob/main/images/weatherDashboard.png
+<img src='https://github.com/norgard7/weather-dashboard/blob/main/images/weatherDashboard.png'>
 
