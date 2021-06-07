@@ -7,9 +7,13 @@ weather Dashboard allows you to populate any city in the united states. It will 
 Type in your city of choice and click search. Data will populate for the day of as well as 5 forecast days. 
 
 
-Usage
-```md
-![this is an image of weather Dashboard main page](./images/weatherDashboard.png)
-```
+# Images
 <img src='https://github.com/norgard7/weather-dashboard/blob/main/images/weatherDashboard.png'>
+
+# Technology used
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+</ul>
 
